@@ -1,4 +1,4 @@
-# See: python -m PreclinicalMRI.pipelines.qMRI_processes.OE_DCE_summary -h
+# See: python -m qbidcemri.processes.OE_DCE_summary -h
 
 p_thresh: 0.05
 c_thresh: 0.001

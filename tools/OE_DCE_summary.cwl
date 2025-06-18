@@ -1,6 +1,6 @@
 cwlVersion: v1.2
 class: CommandLineTool
-label: PreclinicalMRI.pipelines.qMRI_processes.OE_DCE_summary tool wrapper
+label: qbidcemri.processes.OE_DCE_summary tool wrapper
 doc: |
     Apply ROI masks to maps, generate significance maps and summary statistics.
 
@@ -58,7 +58,7 @@ requirements:
 baseCommand: python
 arguments:
   - prefix: -m
-    valueFrom: PreclinicalMRI.pipelines.qMRI_processes.OE_DCE_summary
+    valueFrom: qbidcemri.processes.OE_DCE_summary
   - prefix: --output_dir
     valueFrom: $(runtime.outdir)
   - prefix: --final_maps_dir

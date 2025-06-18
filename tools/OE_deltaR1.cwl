@@ -46,7 +46,7 @@ requirements:
 baseCommand: python
 arguments:
   - prefix: -m
-    valueFrom: PreclinicalMRI.pipelines.qMRI_processes.OE_deltaR1
+    valueFrom: qbidcemri.processes.OE_deltaR1
   # - prefix: --data_dir
   #   valueFrom: $(runtime.outdir)
   - prefix: --output_dir

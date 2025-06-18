@@ -1,6 +1,6 @@
 cwlVersion: v1.2
 class: CommandLineTool
-label: PreclinicalMRI.pipelines.qMRI_processes.OE_DCE_hypoxia_mapping tool wrapper
+label: qbidcemri.processes.OE_DCE_hypoxia_mapping tool wrapper
 doc: |
     Generates hypoxia maps from DCE and OE p-value maps:
 
@@ -43,7 +43,7 @@ requirements:
 baseCommand: python
 arguments:
   - prefix: -m
-    valueFrom: PreclinicalMRI.pipelines.qMRI_processes.OE_DCE_hypoxia_mapping
+    valueFrom: qbidcemri.processes.OE_DCE_hypoxia_mapping
   # - prefix: --data_dir
   #   valueFrom: $(runtime.outdir)
   - prefix: --output_dir
